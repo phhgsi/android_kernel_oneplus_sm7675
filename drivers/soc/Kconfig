@@ -55,11 +55,7 @@ source "kernel/oplus_cpu/oplus_overload/Kconfig"
 #endif /* OPLUS_FEATURE_ABNORMAL_FLAG */
 
 #ifdef OPLUS_FEATURE_BOOT
-source "drivers/soc/oplus/boot/cmdline_parser/Kconfig"
-source "drivers/soc/oplus/boot/bootloader_log/Kconfig"
-source "drivers/soc/oplus/boot/oplus_projectinfo/Kconfig"
-source "drivers/soc/oplus/boot/bootmode/Kconfig"
-source "drivers/soc/oplus/boot/htb/Kconfig"
+source "drivers/soc/oplus/boot/Kconfig"
 #endif /* OPLUS_FEATURE_BOOT */
 
 #ifdef OPLUS_FEATURE_QCOM_WATCHDOG
