@@ -117,4 +117,5 @@ obj-y					+= blink/
 obj-y					+= simple/
 
 # LED Triggers
+obj-$(CONFIG_LEDS_AW2023)		+= aw2023/
 obj-$(CONFIG_LEDS_AW20198)              += aw20198/
