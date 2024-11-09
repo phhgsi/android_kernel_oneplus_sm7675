@@ -3,4 +3,3 @@
  * Copyright (c) 2021, The Linux Foundation. All rights reserved.
  */
 int preemptirq_long_init(void);
-void preemptirq_long_cleanup(void);
